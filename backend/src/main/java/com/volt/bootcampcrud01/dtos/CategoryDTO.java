@@ -3,7 +3,7 @@ package com.volt.bootcampcrud01.dtos;
 import com.volt.bootcampcrud01.entities.Category;
 
 public class CategoryDTO {
-
+private static final long serialVersionUID = 1L;
     private Long id;
     private String name;
 

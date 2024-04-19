@@ -3,10 +3,11 @@ package com.volt.bootcampcrud01.entities;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "categories_TB")
+@Table(name = "TB_CATEGORIES")
 public class Category {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
 
