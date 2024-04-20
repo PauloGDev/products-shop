@@ -14,12 +14,15 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
-public class CategoryService {
+public class CategoryService implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
 
     @Autowired

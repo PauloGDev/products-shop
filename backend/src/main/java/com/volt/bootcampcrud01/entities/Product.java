@@ -73,7 +73,7 @@ public class Product {
     }
 
     public String getImgURL() {
-        return imgURL;
+        return this.imgURL;
     }
 
     public void setImgURL(String imgURL) {
